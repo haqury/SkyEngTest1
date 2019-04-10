@@ -15,7 +15,7 @@ function sumBigNumber($val1, $val2)
     $increment = 0;
     $result = '';
     while(!empty($val1) || !empty($val2) || !empty($increment)) {
-        $val1[0] = $val1[0] ?? 0;
+        $val2[0] = $val2[0] ?? 0;
         $val1[0] = $val1[0] ?? 0;
         $sum = $val1[0] + $val2[0] + $increment;
         $result .= $sum > 9 ? $sum-10 : $sum;
