@@ -23,9 +23,7 @@ function sumBigNumber($val1, $val2)
         $val1 = substr($val1, 1);
         $val2 = substr($val2, 1);
     }
-    if (empty($val1) && empty($val2) && empty($increment)) {
-        return strrev($result);
-    }
+    return strrev($result);
 }
 
 $result = sumBigNumber($val1, $val2);
