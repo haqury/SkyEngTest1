@@ -1,0 +1,115 @@
+body {
+    background: #86a7d5;
+}
+
+.home-menu {
+    background: white;
+    margin: 150px auto;
+    display: flex;
+    width: max-content;
+    border: black;
+    border-radius: 4px;
+    box-shadow: 0 0 10px black;
+}
+
+@media screen and (min-width: 400px) {
+    .home-menu {
+        display: flex;
+    }
+
+    .modal__button {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home-menu {
+        margin: 50px auto;
+        display: block;
+    }
+
+    .modal__button {
+        margin-left: 0;
+        width: 80%;
+    }
+}
+
+.home_menu__button {
+    height: 400px;
+    width: 240px;
+    padding: 30px;
+    text-align: center;
+}
+
+.home_menu__button:hover {
+    background: gainsboro;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    margin: 0;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+
+.modal__button {
+    border: black;
+    border-radius: 4px;
+    box-shadow: 0 0 10px black;
+    background: white;
+    text-align: center;
+    margin: -10px auto;
+    padding: 10px;
+    height: initial;
+}
+
+.modal__button__image {
+    width: 100%;
+}
+
+.home_menu__button__image {
+    width: 100%;
+}
+
+.button_price {
+    margin-top: 20px;
+    display: flex;
+}
+
+.dollar {
+    text-align: right;
+    margin-left: 80px;
+    margin-top: 6px;
+}
+
+.price {
+    font-size: 50px;
+}
+
+.time {
+    margin-top: 35px;}
+
+.pay {
+    margin-top: 10px;
+}
+
+.close {
+    width: 10px;
+    margin-left: 270px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #4672ec;
+    border: black;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: large;
+    font-family: fantasy;
+    color: white;
+}
