@@ -103,6 +103,11 @@ body {
     margin-left: 270px;
 }
 
+.home_menu__button_name, .modal__button_name, .button_price {
+    color: #4672ec;
+}
+
+
 button {
     margin-top: 20px;
     background-color: #4672ec;
